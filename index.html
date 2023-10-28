@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ordem de Pedido</title>
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="img-favicon/favicon-32x32.png" type="image/x-icon">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,51 +15,56 @@
 </head>
 
 <body>
-  <main class="all-itens">
+  <main>
     <section class="container">
-      <div class="backgroud">
-        <img class="img-background" src="img-outros/pattern-background-desktop.svg" alt="Ilustração de Heroi">
-      </div>
 
-      <div class="summary">
+      <div class="order-summary button-border">
         <div class="img-order">
           <img class="img-illustration-hero" src="img-outros/illustration-hero.svg" alt="Ilustração de Heroi">
         </div>
-        <h1 class="summary-text">
-          Order Summary
-        </h1>
-        <p class="summary-paragraph">
-          You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
-        </p>
+        <div class="text-order button-border">
+          <h1 class="summary-text">
+            Order Summary
+          </h1>
+          <p class="summary-paragraph">
+            You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+          </p>
 
-        <!-- Button -->
-        <div class="button__">
-          <button class="button-plan">
-            <img class="img-music" src="img-outros/icon-music.svg" alt="Símbolo de Música">
-            <h2 class="button-title">
-              Annual Plan
-            </h2>
-            <h2 class="button-price">
-              $59.99/year
-            </h2>
-            <h2 class="button-change">
-              Change
-            </h2>
-          </button>
+          <!-- Button -->
+          <div class="button__ button-border">
+            <button class="button-plan button__">
+              <div>
+                <img class="img-music" src="img-outros/icon-music.svg" alt="Símbolo de Música">
+              </div>
+              <div class="button-mid">
+                <h2 class="button-title button__">
+                  Annual Plan
+                </h2>
+                <h2 class="button-price button__">
+                  $59.99/year
+                </h2>
+              </div>
+              <div>
+                <h2 class="button-change button__">
+                  Change
+                </h2>
+              </div>
+            </button>
 
-          <button class="button-pay">
-            <h3>
-              Proceed to Payment
-            </h3>
-          </button>
+            <button class="button-pay button__">
+              <h3>
+                Proceed to Payment
+              </h3>
+            </button>
 
-          <a href="x" class="click-cancel">
-            <h3 class="click-cancel">
-              Cancel Order
-            </h3>
-          </a>
-
+            <button class="button-cancel button__ button-border">
+              <h3 class="text-button-cancel">
+                Cancel Order
+              </h3>
+            </button>
+          </div>
         </div>
+      </div>
     </section>
   </main>
 </body>
